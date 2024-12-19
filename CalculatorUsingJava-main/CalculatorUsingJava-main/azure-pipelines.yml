@@ -1,0 +1,5 @@
+- task: FortifyScanCentralSAST@7
+  inputs:
+    scanCentralClientToken: '$(ScanCentral.ClientToken)'
+    sscCiToken: '$(ScanCentral.SscCiToken)'
+    buildTool: 'dotnet'
