@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="variable.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+ 
+</head>
+<body>
+<div class="uxa-tab-group uxa-secondary uxa-small">
+    <div class="uxa-tab-list" role="tablist" aria-label="Aria Label" aria-orientation="horizontal">
+      <button
+        type="button"
+        class="uxa-tab uxa-active uxa-selected"
+        role="tab"
+        aria-selected="true"
+        aria-controls="tab-one"
+        id="tab-label-one"
+      >
+        Summary
+        <div class="uxa-tab-indicator"></div>
+      </button>
+      <button
+        type="button"
+        class="uxa-tab"
+        role="tab"
+        aria-selected="false"
+        aria-controls="tab-two"
+        id="tab-label-two"
+        tabindex="-1"
+      >
+        Overview
+      </button>
+    </div>
+    <div
+      class="uxa-tab-panel uxa-active uxa-selected"
+      tabindex="0"
+      role="tabpanel"
+      id="tab-one"
+      aria-labelledby="tab-label-one"
+    >
+    <p>
+        UX Aspects is the only open source user interface framework for building modern, responsive,
+        mobile big data applications on the web.
+      </p>
+    </div>
+    <div
+      class="uxa-tab-panel"
+      tabindex="0"
+      role="tabpanel"
+      id="tab-two"
+      aria-labelledby="tab-label-two"
+    >
+      <p>
+        UX Aspects provides all the essential components required for creating a big data application,
+        allowing you to swiftly create dashboards and reports that provide users with the insights they
+        crave from their big data applications.
+      </p>
+    </div>
+  </div>
+ </body>
